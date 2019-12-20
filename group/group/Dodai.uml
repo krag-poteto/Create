@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>dodai.Dodai</OriginalElement>
+  <nodes>
+    <node x="281.0151515151515" y="391.0">group.CustomizedDodai</node>
+    <node x="346.2651515151515" y="661.0">group.Main</node>
+    <node x="389.8901515151515" y="0.0">dodai.Dodai.DodaiMouseMotionListener</node>
+    <node x="275.0" y="134.5">dodai.Dodai</node>
+    <node x="647.6401515151515" y="179.0">group.SearchPanel</node>
+    <node x="0.0" y="124.0">group.DigitalClock</node>
+    <node x="126.8901515151515" y="0.0">dodai.Dodai.DodaiMouseListener</node>
+    <node x="302.7651515151515" y="537.0">group.TaskTray</node>
+    <node x="657.8901515151515" y="0.0">group.FromDesktop</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="group.Main" target="group.TaskTray">
+      <point x="42.0" y="-25.5" />
+      <point x="472.2651515151515" y="636.0" />
+      <point x="494.0151515151515" y="636.0" />
+      <point x="63.75" y="37.0" />
+    </edge>
+    <edge source="group.CustomizedDodai" target="group.SearchPanel">
+      <point x="82.91666666666663" y="-48.0" />
+      <point x="463.43181818181813" y="371.0" />
+      <point x="755.6401515151515" y="371.0" />
+      <point x="36.0" y="48.5" />
+    </edge>
+    <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseMotionListener">
+      <point x="28.0" y="-93.0" />
+      <point x="415.0" y="99.0" />
+      <point x="451.8901515151515" y="99.0" />
+      <point x="-62.0" y="37.0" />
+    </edge>
+    <edge source="dodai.Dodai.DodaiMouseMotionListener" target="dodai.Dodai">
+      <point x="62.0" y="37.0" />
+      <point x="575.8901515151515" y="99.0" />
+      <point x="471.0" y="99.0" />
+      <point x="84.0" y="-93.0" />
+    </edge>
+    <edge source="group.SearchPanel" target="group.FromDesktop">
+      <point x="0.0" y="-48.5" />
+      <point x="719.6401515151515" y="99.0" />
+      <point x="709.3901515151515" y="99.0" />
+      <point x="-51.5" y="37.0" />
+    </edge>
+    <edge source="group.TaskTray" target="group.FromDesktop">
+      <point x="85.0" y="-37.0" />
+      <point x="515.2651515151515" y="512.0" />
+      <point x="802.1401515151515" y="512.0" />
+      <point x="802.1401515151515" y="99.0" />
+      <point x="812.3901515151515" y="99.0" />
+      <point x="51.5" y="37.0" />
+    </edge>
+    <edge source="group.CustomizedDodai" target="group.DigitalClock">
+      <point x="-49.75" y="-48.0" />
+      <point x="330.7651515151515" y="361.0" />
+      <point x="191.25" y="361.0" />
+      <point x="63.75" y="103.5" />
+    </edge>
+    <edge source="dodai.Dodai.DodaiMouseListener" target="dodai.Dodai">
+      <point x="60.75" y="37.0" />
+      <point x="309.1401515151515" y="99.0" />
+      <point x="359.0" y="99.0" />
+      <point x="-28.0" y="-93.0" />
+    </edge>
+    <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseListener">
+      <point x="-84.0" y="-93.0" />
+      <point x="303.0" y="99.0" />
+      <point x="187.6401515151515" y="99.0" />
+      <point x="-60.75" y="37.0" />
+    </edge>
+    <edge source="group.TaskTray" target="group.CustomizedDodai">
+      <point x="0.0" y="-37.0" />
+      <point x="49.75" y="48.0" />
+    </edge>
+    <edge source="group.CustomizedDodai" target="dodai.Dodai">
+      <point x="-16.58333333333337" y="-48.0" />
+      <point x="363.93181818181813" y="351.0" />
+      <point x="331.0" y="351.0" />
+      <point x="-56.0" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9262295081967213" x="440.5" y="356.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
