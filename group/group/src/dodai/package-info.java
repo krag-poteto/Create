@@ -1,4 +1,0 @@
-/**
- * Dodaiクラスのパッケージです
- */
-package dodai;

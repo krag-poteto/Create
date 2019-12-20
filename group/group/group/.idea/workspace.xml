@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="group:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76aac147-4077-44d1-8201-7bd28020c883" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/group/DigitalClock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dodai/Dodai.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="79" column="70" selection-start-line="79" selection-start-column="70" selection-end-line="79" selection-end-column="70" />
+              <folding>
+                <element signature="method#DodaiMouseListener#0;class#DodaiMouseListener#0;class#Dodai#0" />
+                <element signature="method#DodaiMouseMotionListener#0;class#DodaiMouseMotionListener#0;class#Dodai#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/dodai.Dodai">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>dodai.Dodai</OriginalElement>
+              <nodes>
+                <node x="281.0151515151515" y="391.0">group.CustomizedDodai</node>
+                <node x="346.2651515151515" y="661.0">group.Main</node>
+                <node x="389.8901515151515" y="0.0">dodai.Dodai.DodaiMouseMotionListener</node>
+                <node x="275.0" y="134.5">dodai.Dodai</node>
+                <node x="647.6401515151515" y="179.0">group.SearchPanel</node>
+                <node x="0.0" y="124.0">group.DigitalClock</node>
+                <node x="126.8901515151515" y="0.0">dodai.Dodai.DodaiMouseListener</node>
+                <node x="302.7651515151515" y="537.0">group.TaskTray</node>
+                <node x="657.8901515151515" y="0.0">group.FromDesktop</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="group.Main" target="group.TaskTray">
+                  <point x="42.0" y="-25.5" />
+                  <point x="472.2651515151515" y="636.0" />
+                  <point x="494.0151515151515" y="636.0" />
+                  <point x="63.75" y="37.0" />
+                </edge>
+                <edge source="group.CustomizedDodai" target="group.SearchPanel">
+                  <point x="82.91666666666663" y="-48.0" />
+                  <point x="463.43181818181813" y="371.0" />
+                  <point x="755.6401515151515" y="371.0" />
+                  <point x="36.0" y="48.5" />
+                </edge>
+                <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseMotionListener">
+                  <point x="28.0" y="-93.0" />
+                  <point x="415.0" y="99.0" />
+                  <point x="451.8901515151515" y="99.0" />
+                  <point x="-62.0" y="37.0" />
+                </edge>
+                <edge source="dodai.Dodai.DodaiMouseMotionListener" target="dodai.Dodai">
+                  <point x="62.0" y="37.0" />
+                  <point x="575.8901515151515" y="99.0" />
+                  <point x="471.0" y="99.0" />
+                  <point x="84.0" y="-93.0" />
+                </edge>
+                <edge source="group.SearchPanel" target="group.FromDesktop">
+                  <point x="0.0" y="-48.5" />
+                  <point x="719.6401515151515" y="99.0" />
+                  <point x="709.3901515151515" y="99.0" />
+                  <point x="-51.5" y="37.0" />
+                </edge>
+                <edge source="group.TaskTray" target="group.FromDesktop">
+                  <point x="85.0" y="-37.0" />
+                  <point x="515.2651515151515" y="512.0" />
+                  <point x="802.1401515151515" y="512.0" />
+                  <point x="802.1401515151515" y="99.0" />
+                  <point x="812.3901515151515" y="99.0" />
+                  <point x="51.5" y="37.0" />
+                </edge>
+                <edge source="group.CustomizedDodai" target="group.DigitalClock">
+                  <point x="-49.75" y="-48.0" />
+                  <point x="330.7651515151515" y="361.0" />
+                  <point x="191.25" y="361.0" />
+                  <point x="63.75" y="103.5" />
+                </edge>
+                <edge source="dodai.Dodai.DodaiMouseListener" target="dodai.Dodai">
+                  <point x="60.75" y="37.0" />
+                  <point x="309.1401515151515" y="99.0" />
+                  <point x="359.0" y="99.0" />
+                  <point x="-28.0" y="-93.0" />
+                </edge>
+                <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseListener">
+                  <point x="-84.0" y="-93.0" />
+                  <point x="303.0" y="99.0" />
+                  <point x="187.6401515151515" y="99.0" />
+                  <point x="-60.75" y="37.0" />
+                </edge>
+                <edge source="group.TaskTray" target="group.CustomizedDodai">
+                  <point x="0.0" y="-37.0" />
+                  <point x="49.75" y="48.0" />
+                </edge>
+                <edge source="group.CustomizedDodai" target="dodai.Dodai">
+                  <point x="-16.58333333333337" y="-48.0" />
+                  <point x="363.93181818181813" y="351.0" />
+                  <point x="331.0" y="351.0" />
+                  <point x="-56.0" y="93.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9262295081967213" x="440.5" y="373.53097345132744" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dodai.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dodai/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/group/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/group/CustomizedDodai.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/group/SearchPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/group/TaskTray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1063">
+              <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="UML Class" />
+        <option value="UML Activity" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/group/DigitalClock.java" />
+        <option value="$PROJECT_DIR$/src/group/FromDesktop.java" />
+        <option value="$PROJECT_DIR$/src/group/Main.java" />
+        <option value="$PROJECT_DIR$/src/group/CustomizedDodai.java" />
+        <option value="$PROJECT_DIR$/src/group/SearchPanel.java" />
+        <option value="$PROJECT_DIR$/src/group/TaskTray.java" />
+        <option value="$PROJECT_DIR$/src/dodai/Dodai.java" />
+        <option value="$PROJECT_DIR$/src/dodai/package-info.java" />
+        <option value="$PROJECT_DIR$/src/group/package-info.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549126632206" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JAR Application.group.jar">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="group.Main" />
+      <module name="group" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="group.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/classes/artifacts/group_jar/group.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.group.jar" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76aac147-4077-44d1-8201-7bd28020c883" name="Default Changelist" comment="" />
+      <created>1549036636079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549036636079</updated>
+      <workItem from="1549036645632" duration="262000" />
+      <workItem from="1549045064332" duration="886000" />
+      <workItem from="1549046005110" duration="1449000" />
+      <workItem from="1549110191784" duration="3381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5978000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="simpleUML" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15492958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="デバッグ" order="12" />
+      <window_info anchor="bottom" id="実行" order="13" weight="0.07258938" />
+      <window_info anchor="bottom" id="メッセージ" order="14" />
+      <window_info anchor="bottom" id="検索" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="パレット" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/group.CustomizedDodai">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>group.CustomizedDodai</OriginalElement>
+          <nodes>
+            <node x="422.21710526315803" y="5371.0">group.CustomizedDodai</node>
+            <node x="413.0" y="4254.0">java.awt.Frame</node>
+            <node x="475.09210526315803" y="3185.0">java.awt.Window</node>
+            <node x="355.34210526315803" y="88.0">java.awt.MenuContainer</node>
+            <node x="869.967105263158" y="4595.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="0.0" y="4595.0">javax.swing.RootPaneContainer</node>
+            <node x="782.217105263158" y="2798.0">javax.accessibility.Accessible</node>
+            <node x="398.34210526315803" y="255.0">java.awt.Component</node>
+            <node x="638.342105263158" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="456.71710526315803" y="5248.0">dodai.Dodai</node>
+            <node x="512.342105263158" y="88.0">java.io.Serializable</node>
+            <node x="401.84210526315803" y="2490.0">java.awt.Container</node>
+            <node x="378.71710526315803" y="5015.0">javax.swing.JFrame</node>
+            <node x="170.0" y="4551.0">javax.swing.WindowConstants</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.awt.Window" target="javax.accessibility.Accessible">
+              <point x="90.25" y="-509.5" />
+              <point x="745.842105263158" y="3160.0" />
+              <point x="807.967105263158" y="3160.0" />
+              <point x="-25.75" y="14.5" />
+            </edge>
+            <edge source="dodai.Dodai" target="javax.swing.JFrame">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="java.awt.Window" target="java.awt.Container">
+              <point x="-90.25" y="-509.5" />
+              <point x="0.0" y="322.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="-111.33333333333326" y="-1092.5" />
+              <point x="454.0087719298248" y="230.0" />
+              <point x="452.84210526315803" y="230.0" />
+              <point x="32.5" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="java.awt.Frame">
+              <point x="0.0" y="-91.5" />
+              <point x="521.717105263158" y="4995.0" />
+              <point x="538.5" y="4995.0" />
+              <point x="0.0" y="355.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="111.33333333333337" y="-1092.5" />
+              <point x="676.6754385964914" y="230.0" />
+              <point x="713.342105263158" y="230.0" />
+              <point x="0.0" y="102.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.WindowConstants">
+              <point x="-57.19999999999993" y="-91.5" />
+              <point x="464.5171052631581" y="4985.0" />
+              <point x="281.5" y="4985.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="0.0" y="-1092.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.Window">
+              <point x="62.75" y="-355.5" />
+              <point x="601.25" y="4229.0" />
+              <point x="655.592105263158" y="4229.0" />
+              <point x="0.0" y="509.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.RootPaneContainer">
+              <point x="-114.39999999999998" y="-91.5" />
+              <point x="407.31710526315806" y="4995.0" />
+              <point x="75.0" y="4995.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.MenuContainer">
+              <point x="-62.75" y="-355.5" />
+              <point x="475.75" y="4229.0" />
+              <point x="387.84210526315803" y="4229.0" />
+              <point x="-32.5" y="14.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-322.5" />
+              <point x="0.0" y="1092.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="114.39999999999998" y="-91.5" />
+              <point x="636.117105263158" y="4995.0" />
+              <point x="954.967105263158" y="4995.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.accessibility.Accessible">
+              <point x="57.200000000000045" y="-91.5" />
+              <point x="578.9171052631581" y="4985.0" />
+              <point x="859.467105263158" y="4985.0" />
+              <point x="25.75" y="14.5" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="dodai.Dodai">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9281045751633987" x="-190.0" y="5111.0" />
+          <SelectedNodes>
+            <node>group.CustomizedDodai</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/group.SearchPanel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>group.SearchPanel</OriginalElement>
+          <nodes>
+            <node x="" y="">group.CustomizedDodai</node>
+            <node x="" y="">javax.swing.JPanel</node>
+            <node x="" y="">java.awt.event.ActionListener</node>
+            <node x="" y="">group.SearchPanel</node>
+            <node x="" y="">dodai.Dodai</node>
+            <node x="" y="">group.DigitalClock</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="417.0" y="360.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/group.TaskTray">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>group.TaskTray</OriginalElement>
+          <nodes>
+            <node x="" y="">group.CustomizedDodai</node>
+            <node x="" y="">group.Main</node>
+            <node x="" y="">dodai.Dodai.DodaiMouseMotionListener</node>
+            <node x="" y="">dodai.Dodai</node>
+            <node x="" y="">group.SearchPanel</node>
+            <node x="" y="">group.DigitalClock</node>
+            <node x="" y="">dodai.Dodai.DodaiMouseListener</node>
+            <node x="" y="">group.TaskTray</node>
+            <node x="" y="">group.FromDesktop</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="365.0" y="352.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/FromDesktop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Activity.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/CustomizedDodai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/DigitalClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/SearchPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/TaskTray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TaskTray.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>group.TaskTray</OriginalElement>
+          <nodes>
+            <node x="281.0151515151515" y="391.0">group.CustomizedDodai</node>
+            <node x="346.2651515151515" y="661.0">group.Main</node>
+            <node x="647.6401515151515" y="179.0">group.SearchPanel</node>
+            <node x="0.0" y="124.0">group.DigitalClock</node>
+            <node x="126.8901515151515" y="0.0">dodai.Dodai.DodaiMouseListener</node>
+            <node x="389.8901515151515" y="0.0">dodai.Dodai.DodaiMouseMotionListener</node>
+            <node x="302.7651515151515" y="537.0">group.TaskTray</node>
+            <node x="657.8901515151515" y="0.0">group.FromDesktop</node>
+            <node x="275.0" y="134.5">dodai.Dodai</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="group.TaskTray" target="group.FromDesktop">
+              <point x="85.0" y="-37.0" />
+              <point x="515.2651515151515" y="512.0" />
+              <point x="802.1401515151515" y="512.0" />
+              <point x="802.1401515151515" y="99.0" />
+              <point x="812.3901515151515" y="99.0" />
+              <point x="51.5" y="37.0" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="group.DigitalClock">
+              <point x="-49.75" y="-48.0" />
+              <point x="330.7651515151515" y="361.0" />
+              <point x="191.25" y="361.0" />
+              <point x="63.75" y="103.5" />
+            </edge>
+            <edge source="dodai.Dodai.DodaiMouseListener" target="dodai.Dodai">
+              <point x="60.75" y="37.0" />
+              <point x="309.1401515151515" y="99.0" />
+              <point x="359.0" y="99.0" />
+              <point x="-28.0" y="-93.0" />
+            </edge>
+            <edge source="group.Main" target="group.TaskTray">
+              <point x="-42.0" y="-25.5" />
+              <point x="388.2651515151515" y="636.0" />
+              <point x="366.5151515151515" y="636.0" />
+              <point x="-63.75" y="37.0" />
+            </edge>
+            <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseListener">
+              <point x="-84.0" y="-93.0" />
+              <point x="303.0" y="99.0" />
+              <point x="187.6401515151515" y="99.0" />
+              <point x="-60.75" y="37.0" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="group.SearchPanel">
+              <point x="49.75" y="-48.0" />
+              <point x="430.2651515151515" y="361.0" />
+              <point x="683.6401515151515" y="361.0" />
+              <point x="-36.0" y="48.5" />
+            </edge>
+            <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseMotionListener">
+              <point x="28.0" y="-93.0" />
+              <point x="415.0" y="99.0" />
+              <point x="451.8901515151515" y="99.0" />
+              <point x="-62.0" y="37.0" />
+            </edge>
+            <edge source="group.TaskTray" target="group.CustomizedDodai">
+              <point x="0.0" y="-37.0" />
+              <point x="49.75" y="48.0" />
+            </edge>
+            <edge source="dodai.Dodai.DodaiMouseMotionListener" target="dodai.Dodai">
+              <point x="62.0" y="37.0" />
+              <point x="575.8901515151515" y="99.0" />
+              <point x="471.0" y="99.0" />
+              <point x="84.0" y="-93.0" />
+            </edge>
+            <edge source="group.SearchPanel" target="group.FromDesktop">
+              <point x="0.0" y="-48.5" />
+              <point x="719.6401515151515" y="99.0" />
+              <point x="709.3901515151515" y="99.0" />
+              <point x="-51.5" y="37.0" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="dodai.Dodai">
+              <point x="-16.58333333333337" y="-48.0" />
+              <point x="363.93181818181813" y="351.0" />
+              <point x="331.0" y="351.0" />
+              <point x="-56.0" y="93.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-73.5" y="220.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/group.Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>group.Main</OriginalElement>
+          <nodes>
+            <node x="" y="">group.CustomizedDodai</node>
+            <node x="" y="">group.Main</node>
+            <node x="" y="">dodai.Dodai</node>
+            <node x="" y="">group.SearchPanel</node>
+            <node x="" y="">group.DigitalClock</node>
+            <node x="" y="">group.TaskTray</node>
+            <node x="" y="">group.FromDesktop</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9262295081967213" x="368.0" y="346.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dodai/Dodai.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="79" column="70" selection-start-line="79" selection-start-column="70" selection-end-line="79" selection-end-column="70" />
+          <folding>
+            <element signature="method#DodaiMouseListener#0;class#DodaiMouseListener#0;class#Dodai#0" />
+            <element signature="method#DodaiMouseMotionListener#0;class#DodaiMouseMotionListener#0;class#Dodai#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dodai.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dodai/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/dodai.Dodai">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>dodai.Dodai</OriginalElement>
+          <nodes>
+            <node x="281.0151515151515" y="391.0">group.CustomizedDodai</node>
+            <node x="346.2651515151515" y="661.0">group.Main</node>
+            <node x="389.8901515151515" y="0.0">dodai.Dodai.DodaiMouseMotionListener</node>
+            <node x="275.0" y="134.5">dodai.Dodai</node>
+            <node x="647.6401515151515" y="179.0">group.SearchPanel</node>
+            <node x="0.0" y="124.0">group.DigitalClock</node>
+            <node x="126.8901515151515" y="0.0">dodai.Dodai.DodaiMouseListener</node>
+            <node x="302.7651515151515" y="537.0">group.TaskTray</node>
+            <node x="657.8901515151515" y="0.0">group.FromDesktop</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="group.Main" target="group.TaskTray">
+              <point x="42.0" y="-25.5" />
+              <point x="472.2651515151515" y="636.0" />
+              <point x="494.0151515151515" y="636.0" />
+              <point x="63.75" y="37.0" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="group.SearchPanel">
+              <point x="82.91666666666663" y="-48.0" />
+              <point x="463.43181818181813" y="371.0" />
+              <point x="755.6401515151515" y="371.0" />
+              <point x="36.0" y="48.5" />
+            </edge>
+            <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseMotionListener">
+              <point x="28.0" y="-93.0" />
+              <point x="415.0" y="99.0" />
+              <point x="451.8901515151515" y="99.0" />
+              <point x="-62.0" y="37.0" />
+            </edge>
+            <edge source="dodai.Dodai.DodaiMouseMotionListener" target="dodai.Dodai">
+              <point x="62.0" y="37.0" />
+              <point x="575.8901515151515" y="99.0" />
+              <point x="471.0" y="99.0" />
+              <point x="84.0" y="-93.0" />
+            </edge>
+            <edge source="group.SearchPanel" target="group.FromDesktop">
+              <point x="0.0" y="-48.5" />
+              <point x="719.6401515151515" y="99.0" />
+              <point x="709.3901515151515" y="99.0" />
+              <point x="-51.5" y="37.0" />
+            </edge>
+            <edge source="group.TaskTray" target="group.FromDesktop">
+              <point x="85.0" y="-37.0" />
+              <point x="515.2651515151515" y="512.0" />
+              <point x="802.1401515151515" y="512.0" />
+              <point x="802.1401515151515" y="99.0" />
+              <point x="812.3901515151515" y="99.0" />
+              <point x="51.5" y="37.0" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="group.DigitalClock">
+              <point x="-49.75" y="-48.0" />
+              <point x="330.7651515151515" y="361.0" />
+              <point x="191.25" y="361.0" />
+              <point x="63.75" y="103.5" />
+            </edge>
+            <edge source="dodai.Dodai.DodaiMouseListener" target="dodai.Dodai">
+              <point x="60.75" y="37.0" />
+              <point x="309.1401515151515" y="99.0" />
+              <point x="359.0" y="99.0" />
+              <point x="-28.0" y="-93.0" />
+            </edge>
+            <edge source="dodai.Dodai" target="dodai.Dodai.DodaiMouseListener">
+              <point x="-84.0" y="-93.0" />
+              <point x="303.0" y="99.0" />
+              <point x="187.6401515151515" y="99.0" />
+              <point x="-60.75" y="37.0" />
+            </edge>
+            <edge source="group.TaskTray" target="group.CustomizedDodai">
+              <point x="0.0" y="-37.0" />
+              <point x="49.75" y="48.0" />
+            </edge>
+            <edge source="group.CustomizedDodai" target="dodai.Dodai">
+              <point x="-16.58333333333337" y="-48.0" />
+              <point x="363.93181818181813" y="351.0" />
+              <point x="331.0" y="351.0" />
+              <point x="-56.0" y="93.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9262295081967213" x="440.5" y="373.53097345132744" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>group:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>group</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
